@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Petza E-Commerce
 
-## Getting Started
+**Petza** is a clean, playful e-commerce web app designed for selling premium pet toys and accessories.  
+Originally created for a school fest showcase, Petza is built with a professional polish and startup-grade quality.  
 
-First, run the development server:
+## 🌐 Live Preview  
+[🔗 Visit the Demo](https://petza-ecommerce.vercel.app) *(optional — update if hosted)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Features
+
+- 🛍️ Home, Explore, Cart, and Profile pages
+- 🎨 Claymorphic UI with soft, playful design
+- ⚡ Fast and responsive frontend
+- 📱 Mobile-first layout
+- 🐶 Pet-focused categories like Barks, Meows, and Chirps
+- 🧃 Clean product cards and hover interactions
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** (with Vite or CRA)
+- **Tailwind CSS** (for utility-first styling)
+- **Framer Motion** (optional – for animations)
+- **Firebase (Planned)** – for authentication and product data
+- **Cursor AI** – for fast design-to-code workflow
+- **Figma/Framer** – for prototyping UI
+
+---
+
+## 📁 Folder Structure
+
+```
+petza-ecommerce/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── styles/
+│   └── App.jsx
+├── tailwind.config.js
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> _(Add images or GIFs of the UI here once available)_
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Installation & Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+git clone https://github.com/PetzaTech/petza-ecommerce
+cd petza-ecommerce
+npm install
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [ ] Add product filtering & sorting
+- [ ] Integrate Firebase backend
+- [ ] Enable cart functionality
+- [ ] Add login/signup screens
+- [ ] Deploy with Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🙌 Credits
+
+Made with ❤️ by [PetzaTech](https://github.com/PetzaTech)  
+UI designed using **Figma**, code powered by **Cursor AI** & **Tailwind CSS**.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
