@@ -38,7 +38,7 @@ function Header() {
                 {/* Right */}
                 <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
                     <div className="link">
-                        <p>Hello, Akshit Kumar</p>
+                        <p>Hello, User</p>
                         <p className="link-lg">Pet Account</p>
                     </div>
 
